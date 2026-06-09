@@ -1,4 +1,4 @@
-import type { Fortune } from '../../types/database'
+import type { Fortune } from '../types/database'
 
 type DrawState = 'idle' | 'drawing' | 'revealed'
 
