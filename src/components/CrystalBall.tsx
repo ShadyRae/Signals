@@ -8,16 +8,17 @@ export default function CrystalBall({ drawState }: Props) {
   return (
     <div className={`crystal-wrap ${drawState}`}>
       <div className="crystal-ball">
-        <div className="crystal-inner" />
-        <div className="crystal-shimmer" />
-        <div className="crystal-spark" />
-        <div className="crystal-spark spark2" />
-      </div>
-      <div className="crystal-stand">
-        <div className="stand-neck" />
-        <div className="stand-base" />
-      </div>
-      <div className="crystal-floor" />
+  <img
+    src="/energy.gif"
+    alt="crystal ball"
+    style={{
+      width: '100%',
+      height: '100%',
+      borderRadius: '50%',
+      objectFit: 'cover',
+    }}
+  />
+</div>
 
       <style>{`
         .crystal-wrap {
