@@ -18,7 +18,7 @@ export default function FortunePage() {
   const [fortune, setFortune] = useState<Fortune | null>(null)
   const [drawState, setDrawState] = useState<DrawState>('idle')
   const [queriesRemaining, setQueriesRemaining] = useState(3)
-  const [seenIds, setSeenIds] = useState<string[]>([])
+  const [_seenIds, setSeenIds] = useState<string[]>([])
   const [allEmpty, setAllEmpty] = useState(false)
   const [isDaily, setIsDaily] = useState(false)
 
